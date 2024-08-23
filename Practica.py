@@ -8,7 +8,7 @@ respuesta = input("¿Si o No?")
 def cachipun():
     juego = ["Piedra", "Papel", "Tijera"]
 
-    x2 = random.randint(juego)
+    x2 = random.choice(juego)
 
     jugador = input("Elija Piedra, Papel o Tijera")
 
